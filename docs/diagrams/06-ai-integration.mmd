@@ -1,0 +1,8 @@
+flowchart LR
+ Human[Human question] --> Local[Offline guidance]
+ Human --> Sanitize[Reject secrets / restrict context]
+ Sanitize --> Preview[Exact body and endpoint preview]
+ Preview -->|Owner approves| HTTP[HTTPS request]
+ Vault[Windows protected key] --> HTTP
+ HTTP --> Text[Explanation only]
+ Text -. No execution interface .-> LocalEngine[Local validated operations]

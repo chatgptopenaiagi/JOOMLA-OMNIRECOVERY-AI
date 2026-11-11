@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><ItemGroup><ProjectReference Include="../OmniRecovery.Core/OmniRecovery.Core.csproj"/><PackageReference Include="MySqlConnector" Version="2.6.2"/><PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.12"/><PackageReference Include="BCrypt.Net-Next" Version="4.2.0"/></ItemGroup></Project>

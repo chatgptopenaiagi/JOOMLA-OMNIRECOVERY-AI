@@ -1,0 +1,12 @@
+flowchart TD
+    roots[Explicit local roots] --> guard[Reject UNC and reparse paths]
+    guard --> queue[Bounded directory queue]
+    queue --> metadata[Shallow metadata and fixed Joomla markers]
+    metadata --> version[Bounded XML or PHP version literals]
+    metadata --> partial[Progress and incomplete coverage findings]
+    version --> sites[Discovered Joomla installations]
+    roots --> apache[Static Apache parser]
+    apache --> mapping[Declared document roots and aliases]
+    mapping --> urls[Credential-free loopback URLs only]
+    sites --> urls
+    urls --> untested[Reachability and runtime remain untested]

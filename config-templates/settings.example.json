@@ -1,0 +1,12 @@
+{
+  "Scan": {
+    "Roots": ["C:\\xampp", "C:\\Program Files", "C:\\Program Files (x86)", "C:\\ProgramData"],
+    "MaxDepth": 7,
+    "MaxFiles": 25000,
+    "MaxDirectories": 6000,
+    "MaxSeconds": 45,
+    "ExcludedDirectories": [".git", "node_modules", "vendor", ".venv", "venv", "__pycache__", "AppData", "Windows", "Cache", "Temp", "bin", "obj", "build"]
+  },
+  "DarkTheme": true,
+  "Ai": { "Enabled": false, "Provider": "OpenAI-compatible", "Endpoint": "https://api.openai.com/v1/chat/completions", "Model": "" }
+}

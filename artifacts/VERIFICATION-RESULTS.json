@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "application": "JOOMLA OMNIRECOVERY AI",
+  "version": "1.0.0",
+  "observed_at": "2026-11-11T12:10:58.2894151+01:00",
+  "platform": "Windows x64",
+  "build": {
+    "configuration": "Release",
+    "warnings": 0,
+    "sha256": "1CEF9C7784B1A4FAE9BA817DB749F93D3D51C94DEE25DD963FBB48CD3333C446",
+    "executable": "release/JOOMLA-OMNIRECOVERY-AI.exe",
+    "sdk": "10.0.404",
+    "framework": "net10.0-windows",
+    "bytes": 143450279,
+    "errors": 0,
+    "self_contained": true
+  },
+  "normal_tests": {
+    "report": "automated-tests.json",
+    "failed": 0,
+    "total": 53,
+    "passed": 53
+  },
+  "combined_tests": {
+    "report": "isolated-integration-tests.json",
+    "failed": 0,
+    "includes_normal_suite": true,
+    "total": 61,
+    "passed": 61
+  },
+  "gui": {
+    "report": "gui-verification.json",
+    "passed": true
+  },
+  "read_only_live": {
+    "apache_configured_ports": [
+      8080,
+      443
+    ],
+    "database_engine": "MariaDB",
+    "accounts_with_administrator_grant_evidence": 1,
+    "configuration_chain_files": 2,
+    "mutation_methods_called": false,
+    "joomla_version": "5.4.8",
+    "accounts": 1,
+    "database_version": "10.4.32",
+    "observed_at": "2026-11-11T10:57:20.415838+00:00",
+    "schema_tables": 76,
+    "private_details_published": false,
+    "effective_authorization": "NOT VERIFIED"
+  },
+  "known_limits": [
+    "Full Joomla browser login after reset not tested",
+    "Joomla 4/5 gate; other/unknown major versions refused",
+    "Production credential changes not performed",
+    "Cloud tested with mocked HTTP only",
+    "Dynamic PHP configuration evaluation unavailable",
+    "Complete ACL, MFA, session and authentication-extension behavior unverified",
+    "Unsigned portable release; no installer or updater",
+    "Filesystem cancellation is cooperative"
+  ],
+  "test_harness_incident": {
+    "subsequent_fresh_fixture_passed": true,
+    "protocol_readiness_added": true,
+    "initial_native_fixture_startup_failed": true,
+    "precise_crash_cause": "UNKNOWN",
+    "prior_failed_evidence_preserved_privately": true
+  },
+  "publication": {
+    "raw_smoke_files_included": false,
+    "review_report": "publication-review.json",
+    "secret_values_included": false,
+    "private_investigation_files_included": false
+  }
+}

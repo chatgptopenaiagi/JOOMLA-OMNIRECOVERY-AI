@@ -1,0 +1,13 @@
+flowchart LR
+ Owner[Owner] --> GUI[WPF desktop]
+ GUI --> Controller[Application controller]
+ Controller --> Discover[Bounded discovery]
+ Discover --> Resolve[Static PHP resolver]
+ Controller --> DB[Database adapters]
+ Controller --> Recovery[Preview / explicit confirmation / transaction]
+ Recovery --> DB
+ Controller --> Evidence[Nonsecret SQLite evidence]
+ Controller --> Local[Offline guidance]
+ Controller --> Preview[Sanitized disclosure preview]
+ Preview -->|Separate owner approval| Cloud[Optional HTTPS provider]
+ Controller --> Vault[Windows Credential Manager]

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OmniRecovery.Core/OmniRecovery.Core.csproj" />
+    <Project Path="src/OmniRecovery.Desktop/OmniRecovery.Desktop.csproj" />
+    <Project Path="src/OmniRecovery.Infrastructure/OmniRecovery.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OmniRecovery.Tests/OmniRecovery.Tests.csproj" />
+  </Folder>
+</Solution>

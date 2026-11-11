@@ -1,0 +1,14 @@
+flowchart TD
+    selected[Selected configuration path] --> scope{Within approved roots or exact approved file?}
+    scope -->|No| approval[NeedsApproval and pending path only]
+    scope -->|Yes| file[Bounded read without PHP execution]
+    file --> lexer[Comment-aware tokens and restricted grammar]
+    lexer --> literal[Literal properties or explicitly named getenv]
+    lexer --> loader[Anchored static include expression]
+    loader --> scope
+    lexer -->|Dynamic or ambiguous| unresolved[Unsupported or unresolved]
+    literal --> validate[One JConfig and required fields validated]
+    validate -->|Complete| memory[Private in-memory connection settings]
+    validate -->|Incomplete| unresolved
+    memory --> result[Configured; authentication not tested]
+    result --> evidence[Secret-free status and source paths]

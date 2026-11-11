@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-11-11T12:09:51.6337115+01:00",
+  "executable": "release/JOOMLA-OMNIRECOVERY-AI.exe",
+  "sha256": "1CEF9C7784B1A4FAE9BA817DB749F93D3D51C94DEE25DD963FBB48CD3333C446",
+  "packaged_exit_code": 0,
+  "synthetic": true,
+  "production_database_touched": false,
+  "installation_count": 2,
+  "account_count": 3,
+  "reset_affected_rows": 1,
+  "reset_record_verified": true,
+  "stale_target_cleared": true,
+  "readonly_query_rows": 3,
+  "exports_json_csv": true,
+  "csv_formula_protection": true,
+  "views": [
+    {
+      "page": "Home",
+      "rendered": true
+    },
+    {
+      "page": "Installations",
+      "rendered": true
+    },
+    {
+      "page": "Database",
+      "rendered": true
+    },
+    {
+      "page": "Accounts",
+      "rendered": true
+    },
+    {
+      "page": "Recovery",
+      "rendered": true
+    },
+    {
+      "page": "SQL",
+      "rendered": true
+    },
+    {
+      "page": "Assistant",
+      "rendered": true
+    },
+    {
+      "page": "Evidence",
+      "rendered": true
+    },
+    {
+      "page": "Settings",
+      "rendered": true
+    },
+    {
+      "page": "Recovery-outcome",
+      "rendered": true
+    },
+    {
+      "page": "Home-light",
+      "rendered": true
+    },
+    {
+      "page": "Accounts-light",
+      "rendered": true
+    },
+    {
+      "page": "SQL-light",
+      "rendered": true
+    },
+    {
+      "page": "Assistant-compact",
+      "rendered": true
+    },
+    {
+      "page": "Settings-compact",
+      "rendered": true
+    },
+    {
+      "page": "Installations-compact",
+      "rendered": true
+    }
+  ],
+  "normal_ui_observation": {
+    "offline_guidance_verified": true,
+    "external_provider_request": false,
+    "scope_controls_verified": true,
+    "startup_verified": true,
+    "automatic_scan_connection_recovery": false
+  },
+  "screenshots": [
+    "../docs/screenshots/accounts.png",
+    "../docs/screenshots/overview.png",
+    "../docs/screenshots/sql-light.png"
+  ]
+}

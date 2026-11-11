@@ -1,0 +1,8 @@
+flowchart TD
+ Config[Public configuration.php] --> Parse[Tokenize static expressions]
+ Parse -->|Literal approved reference| Private[External private configuration]
+ Parse -->|Dynamic / ambiguous| Unknown[Unresolved: request authorized manual connection]
+ Private --> Memory[In-memory connection settings]
+ Memory --> Select[Selected database and prefix]
+ Select --> Schema[Validate users / map / groups / assets]
+ Schema --> Metadata[Account metadata and ACL evidence]

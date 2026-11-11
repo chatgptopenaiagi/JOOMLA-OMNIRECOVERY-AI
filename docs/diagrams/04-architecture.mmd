@@ -1,0 +1,13 @@
+flowchart LR
+ Discover[Discover installation] --> Inspect[Inspect selected database]
+ Inspect --> Select[Select account]
+ Select --> Supported[Prefer supported Joomla recovery]
+ Supported -->|Unavailable; explicit fallback reason| Preview[Identity + schema + expiring preview]
+ Preview --> Confirm[Owner confirms exact target]
+ Confirm --> Lock[Lock one row and compare prior state]
+ Lock --> Update[Replace only password hash]
+ Update --> Verify[Verify value and affected row count]
+ Verify --> Commit[Commit / nonsecret audit]
+ Lock -->|Failure| Rollback[Rollback and report]
+ Update -->|Failure| Rollback
+ Verify -->|Failure| Rollback

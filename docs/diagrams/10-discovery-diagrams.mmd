@@ -1,0 +1,14 @@
+flowchart LR
+    selection[Selected local roots] --> configs[Bounded Apache config/include catalog]
+    configs --> declared[Ports, virtual hosts, aliases, local phpMyAdmin mappings]
+    os[Local Windows metadata] --> services[Registry and service-status query only]
+    os --> listeners[TCP listening port metadata]
+    selection --> tool[Known PHP and Apache executable candidates]
+    tool --> child[PHP -n -v or Apache -v]
+    child --> timeout[4-second timeout and bounded capture]
+    timeout --> token[Recognized version token only]
+    declared --> snapshot[SystemSnapshot observations]
+    services --> snapshot
+    listeners --> snapshot
+    token --> snapshot
+    snapshot --> limits[No service changes, HTTP requests or runtime claims]

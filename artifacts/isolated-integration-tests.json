@@ -1,0 +1,375 @@
+{
+  "observed_at": "2026-11-11T11:08:08.3578677+00:00",
+  "total": 61,
+  "passed": 61,
+  "failed": 0,
+  "scope": "Synthetic fixtures and mocked HTTP; optional explicitly selected disposable MariaDB and PHP interoperability when enabled. No production database changes.",
+  "tests": [
+    {
+      "name": "Discovery: Joomla markers/version distinguish a site from configuration names",
+      "passed": true,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
+      "name": "Discovery: modern PHP version constants are read without execution",
+      "passed": true,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
+      "name": "Discovery: depth/file budgets report partial coverage",
+      "passed": true,
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "name": "Discovery: cancellation preserves a noncomplete result and progress",
+      "passed": true,
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "name": "Discovery: excluded dependency folders are not traversed",
+      "passed": true,
+      "duration_ms": 7,
+      "error": null
+    },
+    {
+      "name": "Discovery: UNC scopes are rejected without probing network hosts",
+      "passed": true,
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "name": "Configuration: static literals/comments do not leak secrets into evidence",
+      "passed": true,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "name": "Configuration: only explicitly named environment variables are requested",
+      "passed": true,
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "name": "Configuration: missing/dynamic environment references remain unresolved",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "Configuration: anchored static loader chains resolve within scope",
+      "passed": true,
+      "duration_ms": 5,
+      "error": null
+    },
+    {
+      "name": "Configuration: external loader waits for exact approval and scope boundary",
+      "passed": true,
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "name": "Configuration: dynamic/interpolated/duplicate assignments fail closed",
+      "passed": true,
+      "duration_ms": 7,
+      "error": null
+    },
+    {
+      "name": "Configuration: constructor/conditional loaders are never interpreted",
+      "passed": true,
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "name": "Configuration: cycles/oversized input remain bounded",
+      "passed": true,
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "name": "Configuration: IPv6/port and local URL policy are explicit",
+      "passed": true,
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "name": "Apache: bounded includes/vhosts/aliases produce declared local URLs",
+      "passed": true,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
+      "name": "Apache: outside includes and unresolved variables are not read",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "Apache: cycles, cancellation and remote URLs fail safely",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "Discovery: XML external entities are prohibited",
+      "passed": true,
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "name": "Configuration: PHP property case, octal integers and conflicting ports are not guessed",
+      "passed": true,
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "name": "Discovery: queued directories are bounded as well as visited directories",
+      "passed": true,
+      "duration_ms": 15,
+      "error": null
+    },
+    {
+      "name": "Discovery/configuration: reparse directories are not traversed",
+      "passed": true,
+      "duration_ms": 8,
+      "error": null
+    },
+    {
+      "name": "SQL allowlist rejects injection, secrets, functions and extra statements",
+      "passed": true,
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "name": "Database hosts require exact loopback or explicit remote opt-in",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "bcrypt uses modern PHP revision and rejects truncation",
+      "passed": true,
+      "duration_ms": 728,
+      "error": null
+    },
+    {
+      "name": "SQLite inspection uses group and root asset inheritance, never group8 alone",
+      "passed": true,
+      "duration_ms": 346,
+      "error": null
+    },
+    {
+      "name": "Wrong prefix is reported without account fallback",
+      "passed": true,
+      "duration_ms": 74,
+      "error": null
+    },
+    {
+      "name": "Joomla numeric ACL grants, denies and malformed values remain distinct",
+      "passed": true,
+      "duration_ms": 135,
+      "error": null
+    },
+    {
+      "name": "Generic SQLite is inspectable without claiming Joomla support",
+      "passed": true,
+      "duration_ms": 12,
+      "error": null
+    },
+    {
+      "name": "Query executor reparses forged plans and keeps values parameterized",
+      "passed": true,
+      "duration_ms": 80,
+      "error": null
+    },
+    {
+      "name": "SQL quoted identifiers round-trip without changing quoted text values",
+      "passed": true,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
+      "name": "Recovery version evidence cannot be borrowed for a manual or different target",
+      "passed": true,
+      "duration_ms": 128,
+      "error": null
+    },
+    {
+      "name": "Production SQLite and unsupported Joomla recovery are refused",
+      "passed": true,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "name": "Recovery requires exact confirmation and unchanged preview",
+      "passed": true,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
+      "name": "Synthetic recovery changes exactly one password and preserves controls",
+      "passed": true,
+      "duration_ms": 498,
+      "error": null
+    },
+    {
+      "name": "Changed account identity or optimistic password refuses recovery",
+      "passed": true,
+      "duration_ms": 571,
+      "error": null
+    },
+    {
+      "name": "Preview connection identity includes SQLite file and prefix",
+      "passed": true,
+      "duration_ms": 537,
+      "error": null
+    },
+    {
+      "name": "Expired and unknown repository nonces are refused",
+      "passed": true,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "name": "Verification failure rolls back password and triggered control change",
+      "passed": true,
+      "duration_ms": 297,
+      "error": null
+    },
+    {
+      "name": "Pre-execution cancellation cannot mutate an account",
+      "passed": true,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "name": "PHP verifies generated Joomla bcrypt over stdin without disclosing secrets",
+      "passed": true,
+      "duration_ms": 446,
+      "error": null
+    },
+    {
+      "name": "MariaDB integration preflight and two isolated synthetic schemas",
+      "passed": true,
+      "duration_ms": 649,
+      "error": null
+    },
+    {
+      "name": "MariaDB selected-schema inspection and parameterized SQL workbench",
+      "passed": true,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "name": "MariaDB direct fallback confirms one row and preserves other schema and controls",
+      "passed": true,
+      "duration_ms": 486,
+      "error": null
+    },
+    {
+      "name": "MariaDB optimistic identity and selected database binding refuse stale previews",
+      "passed": true,
+      "duration_ms": 493,
+      "error": null
+    },
+    {
+      "name": "MariaDB trigger-bearing users tables refuse direct fallback",
+      "passed": true,
+      "duration_ms": 20,
+      "error": null
+    },
+    {
+      "name": "MariaDB unreachable selected endpoint returns a bounded unavailable result",
+      "passed": true,
+      "duration_ms": 2018,
+      "error": null
+    },
+    {
+      "name": "MariaDB discovery through external static configuration to confirmed recovery",
+      "passed": true,
+      "duration_ms": 845,
+      "error": null
+    },
+    {
+      "name": "HTTP reachability rejects remote targets and credential-bearing URLs",
+      "passed": true,
+      "duration_ms": 2,
+      "error": null
+    },
+    {
+      "name": "HTTP reachability uses unauthenticated HEAD and does not follow redirect",
+      "passed": true,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "name": "Secret properties never serialize",
+      "passed": true,
+      "duration_ms": 4,
+      "error": null
+    },
+    {
+      "name": "Secret redaction removes credential assignments and hashes",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "Credential Manager round trip confined to app target",
+      "passed": true,
+      "duration_ms": 18,
+      "error": null
+    },
+    {
+      "name": "Evidence persistence excludes unknown secret metadata",
+      "passed": true,
+      "duration_ms": 59,
+      "error": null
+    },
+    {
+      "name": "CSV export neutralizes spreadsheet formulas",
+      "passed": true,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "name": "Cloud disabled makes no network request",
+      "passed": true,
+      "duration_ms": 1,
+      "error": null
+    },
+    {
+      "name": "Cloud context excludes paths account data and raw config",
+      "passed": true,
+      "duration_ms": 9,
+      "error": null
+    },
+    {
+      "name": "Cloud requires exact one-use disclosure approval",
+      "passed": true,
+      "duration_ms": 3,
+      "error": null
+    },
+    {
+      "name": "Cloud endpoint blocks insecure credentialed URLs",
+      "passed": true,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "name": "Cloud provider errors never echo response body",
+      "passed": true,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "name": "Cloud cancellation is propagated",
+      "passed": true,
+      "duration_ms": 35,
+      "error": null
+    }
+  ]
+}

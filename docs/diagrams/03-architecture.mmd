@@ -1,0 +1,6 @@
+erDiagram
+ USERS ||--o{ USER_USERGROUP_MAP : belongs
+ USERGROUPS ||--o{ USER_USERGROUP_MAP : contains
+ USERGROUPS ||--o{ USERGROUPS : ancestry
+ ASSETS ||--o{ ASSETS : hierarchy
+ ASSETS }o--o{ USERGROUPS : ACL_rules

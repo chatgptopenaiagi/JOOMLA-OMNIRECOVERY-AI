@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-11-11T12:11:27.2373296+01:00",
+  "scope": "Explicit staged source, documentation, tests, synthetic screenshots and allowlisted verification reports",
+  "reviewed_file_count": 78,
+  "text_files_checked": 75,
+  "forbidden_paths": [],
+  "credential_pattern_findings": [],
+  "manual_review": [
+    "No real Joomla configuration copied",
+    "Test secrets/accounts are synthetic",
+    "Selected screenshots show synthetic data only",
+    "Raw smoke outputs and private live evidence excluded",
+    "Public report paths use a fixed allowlist",
+    "No external provider key was used"
+  ],
+  "limitations": "Pattern review supplements bounded manual review; it is not proof that arbitrary future files are secret-free.",
+  "status": "READY_FOR_PUBLICATION"
+}
